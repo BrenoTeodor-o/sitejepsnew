@@ -9,12 +9,12 @@
   "author": "finer",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass" : "*",
-    "gulp-csso" : "*",
-    "gulp-concat" : "*",
-    "gulp-uglify" : "*",
     "babel-preset-env": "^1.4.0",
-    "gulp-babel": "^6.1.2"
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "*",
+    "gulp-csso": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*"
   }
 }

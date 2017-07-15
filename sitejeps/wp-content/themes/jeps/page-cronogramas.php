@@ -16,7 +16,12 @@
 			<h1 class="text-center title"><?php the_title(); ?></h1>
 		</div>
 		<div class="container">
-			<?php the_post_thumbnail(full); ?>
+		<div class="col-sm-4 col-xs-12">
+			<?php the_post_thumbnail(full, array('class' => 'img-responsive')); ?>
+		</div>
+		<div class="col-sm-8 hidden-xs">
+			<?php echo conteudo(600); ?>
+		</div>
 			<hr>
 				<a class="btn btn-veja-mais" target="_blank" href="<?php the_field('arquivo') ?>">Veja mais</a>
 				<hr>
